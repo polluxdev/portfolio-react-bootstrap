@@ -31,3 +31,30 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  padding: 5px 10px;
+  text-decoration: none
+}
+
+.nav-spa > a:hover{
+  color: black;
+  background-color: #61dafb;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-spa {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-spa:hover {
+  color: aqua;
+  text-decoration: none;
+  border-bottom: 2px solid aqua;
+}
+
+.navbar-dark .navbar-brand {
+  color: aqua;
+}
