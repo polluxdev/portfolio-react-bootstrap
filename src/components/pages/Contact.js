@@ -16,7 +16,7 @@ class Contact extends React.Component{
                     </Row>
                     <Row>
                         <Col>
-                            <Form>
+                            <Form className="form">
                                 <Form.Row >
                                     <Col md={6}>
                                     <Form.Group>
@@ -30,7 +30,7 @@ class Contact extends React.Component{
                                     </Col>
                                     <Col md={12}>
                                     <Form.Group>
-                                        <Form.Control as="textarea" rows="6" placeholder="Type Your Message Here"/>
+                                        <Form.Control as="textarea" rows="8" placeholder="Type Your Message Here"/>
                                     </Form.Group>
                                     </Col>
                                     <Col md={12}>
@@ -42,6 +42,7 @@ class Contact extends React.Component{
                             </Form>
                         </Col>
                         <Col>
+                        <div className="contact">
                             <ListGroup as="ul">
                             <div className="single-address">
                                 <i class="fas fa-phone"></i>
@@ -55,7 +56,7 @@ class Contact extends React.Component{
                                 </div>
                             </div>
                             <div className="single-address">
-                                <i class="fas fa-phone"></i>
+                                <i class="fab fa-whatsapp"></i>
                                 <div className="title">
                                     <ListGroup.Item as="li" active>
                                         <h6>WHATSAPP</h6>
@@ -66,7 +67,7 @@ class Contact extends React.Component{
                                 </div>
                             </div>
                             <div className="single-address">
-                                <i class="fas fa-phone"></i>
+                                <i class="far fa-envelope"></i>
                                 <div className="title">
                                     <ListGroup.Item as="li" active>
                                         <h6>EMAIL</h6>
@@ -77,7 +78,7 @@ class Contact extends React.Component{
                                 </div>
                             </div>
                             <div className="single-address">
-                                <i class="fas fa-phone"></i>
+                                <i class="fab fa-twitter"></i>
                                 <div className="title">
                                     <ListGroup.Item as="li" active>
                                         <h6>TWITTER</h6>
@@ -88,6 +89,7 @@ class Contact extends React.Component{
                                 </div>
                             </div>
                             </ListGroup>
+                        </div>
                         </Col>
                     </Row>
                 </Container>
