@@ -1,42 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-background {
+    position: relative;
+    width: 100%;
+    min-height: 900px;
+    background-image: url("../images/background-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .contact-section {
-    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    min-height: 900px;
+    background-color: rgba(52, 58, 64, 0.9);
+}
+
+.container {
+    padding-top: 80px;
+    width: 100%;
 }
 
 .contact-title {
-    text-align: center!important;
-    margin-bottom: 80px;
-    min-height: 200px;
+    text-align: center;
+    min-height: 140px;
+    color: white;
 }
 
 .form {
-    background: #fff;
+    background: #171717;
     padding: 15px;
     -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
     -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
-    height: 355px;
+    min-height: 355px;
+}
+
+.form-control {
+    background-color: #171717;
+    border: 1px solid gold !important;
+    color: #FFF;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #FFF;
+    background-color: #171717;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #171717!important;
+  color: white;
+}
+
+.dark-button {
+    background-color: gold;
+    color: #000000;
+    border-color: #000000!important;
+}
+
+.dark-button:hover {
+    background-color: #000000!important;
+    border-color: #eeeeee!important;
 }
 
 .contact {
-    background: #fff;
+    background: #171717;
     -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
     -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
     padding: 20px;
-    height: 450px;
+    min-height: 450px;
 }
 
 .single-address > i {
     position: absolute;
     left: 3%;
     width: 40px;
-    height: 40px;
+    min-height: 40px;
     line-height: 40px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
     margin-left: 20px;
+    color: #000000;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.single-address .title {
+    margin-bottom: 20px;
+}
+
+.single-address .title .list-group-item {
+    background-color: #171717!important;
+    color: #eeeeee;
+    border-bottom: 1px solid gold!important;
+    border: none;
+    margin-bottom: 5px;
 }
 
 .fa {
@@ -47,10 +114,6 @@
     margin-left: 60px;
 }
 
-.footer {
-    margin-top: 100px;
-    text-align: center;
-    background-color: #343a40!important;
-    padding: 10px;
-    color: white;
+.col-12 {
+    margin-bottom: 25px;
 }

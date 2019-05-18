@@ -5,6 +5,7 @@ import '../css/Contact.css';
 class Contact extends React.Component{
     render(){
         return(
+            <div className="contact-background">
             <div className="contact-section">
                 <Container>
                     <Row>
@@ -15,7 +16,7 @@ class Contact extends React.Component{
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col xs={12} sm={12} md={12} lg={6}>
                             <Form className="form">
                                 <Form.Row >
                                     <Col md={6}>
@@ -35,19 +36,19 @@ class Contact extends React.Component{
                                     </Col>
                                     <Col md={12}>
                                     <Form.Group>
-                                        <Button variant="primary"><span>Submit</span>&nbsp;<i class="fas fa-paper-plane"></i></Button>
+                                        <Button className="dark-button"><span>Submit</span>&nbsp;<i class="fas fa-paper-plane"></i></Button>
                                     </Form.Group>
                                     </Col>
                                 </Form.Row>
                             </Form>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={12} md={12} lg={6}>
                         <div className="contact">
                             <ListGroup as="ul">
                             <div className="single-address">
                                 <i class="fas fa-phone"></i>
                                 <div className="title">
-                                    <ListGroup.Item as="li" active>
+                                    <ListGroup.Item as="li">
                                         <h6>MY PHONE</h6>
                                     </ListGroup.Item>
                                     <ListGroup.Item as="li">
@@ -58,7 +59,7 @@ class Contact extends React.Component{
                             <div className="single-address">
                                 <i class="fab fa-whatsapp"></i>
                                 <div className="title">
-                                    <ListGroup.Item as="li" active>
+                                    <ListGroup.Item as="li">
                                         <h6>WHATSAPP</h6>
                                     </ListGroup.Item>
                                     <ListGroup.Item as="li">
@@ -69,7 +70,7 @@ class Contact extends React.Component{
                             <div className="single-address">
                                 <i class="far fa-envelope"></i>
                                 <div className="title">
-                                    <ListGroup.Item as="li" active>
+                                    <ListGroup.Item as="li">
                                         <h6>EMAIL</h6>
                                     </ListGroup.Item>
                                     <ListGroup.Item as="li">
@@ -80,7 +81,7 @@ class Contact extends React.Component{
                             <div className="single-address">
                                 <i class="fab fa-twitter"></i>
                                 <div className="title">
-                                    <ListGroup.Item as="li" active>
+                                    <ListGroup.Item as="li">
                                         <h6>TWITTER</h6>
                                     </ListGroup.Item>
                                     <ListGroup.Item as="li">
@@ -93,9 +94,7 @@ class Contact extends React.Component{
                         </Col>
                     </Row>
                 </Container>
-                <div className="footer">
-                    <span>© 2019 Fahmi Nur Rosyid</span>
-                </div>
+            </div>
             </div>
         )
     }

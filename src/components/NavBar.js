@@ -6,16 +6,19 @@ import '../App.css';
 class NavBar extends React.Component {
     render(){
         return(
-            <Navbar bg="dark" variant="dark" className="navbar fixed-top">
+            <Navbar collapseOnSelect expand="sm" className="navbar fixed-top">
                 <Link to='/'>
-                    <Navbar.Brand to='/'><span>un</span>Xplainable</Navbar.Brand>
+                    <Navbar.Brand to='/'>unXplainable</Navbar.Brand>
                 </Link>
-                <Nav className="mr-auto">
-                    <Link to='/home' className="nav-spa">Home</Link>
-                    <Link to='/profile' className="nav-spa">Profile</Link>
-                    <Link to='/contact' className="nav-spa">Contact</Link>
-                    <Link to='/portfolio' className="nav-spa">Portfolio</Link>
-                </Nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                        <Link to='/home' className="nav-spa">Home</Link>
+                        <Link to='/profile' className="nav-spa">Profile</Link>
+                        <Link to='/contact' className="nav-spa">Contact</Link>
+                        <Link to='/portfolio' className="nav-spa">Portfolio</Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )
     }

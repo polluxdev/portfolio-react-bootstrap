@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Main from './components/pages/Main';
 import {Link} from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Link to='/portofolio'>Portofolio</Link>&nbsp;&nbsp;
       </NavBar>
       <Main/>
+      <Footer/>
     </div>
   );
 }
