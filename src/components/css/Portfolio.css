@@ -33,11 +33,10 @@
 }
 
 .card {
-    
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    background-color: #171717;
+    background-color: #171717!important;
     color: #eeeeee;
 }
 

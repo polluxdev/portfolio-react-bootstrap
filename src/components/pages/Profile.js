@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Card} from 'react-bootstrap';
+import {Container, Row, Col, Card, ListGroup, ProgressBar} from 'react-bootstrap';
 import '../css/Profile.css';
 import avatar from '../images/profile-img.jpg';
 
@@ -18,7 +18,7 @@ class Profile extends React.Component{
                         </Col>
                     </Row>
                     <Row>
-                        <Col xs={12} sm md={6}>
+                        <Col xs={12} sm md={6} className="profile-card">
                             <Row>
                                 <Col xs={6} sm md={4} className="profile-image">
                                 <div className="border-layer-outer">
@@ -57,7 +57,45 @@ class Profile extends React.Component{
                             </Row>
                         </Col>
                         <Col xs={12} sm md={6}>
-                            
+
+                            <ListGroup>
+                                <ListGroup.Item>
+                                    <div className="skill-name">HTML</div>
+                                    <ProgressBar animated now={45} />
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <div className="skill-name"></div>
+
+                                </ListGroup.Item>
+                            </ListGroup>
                         </Col>
                     </Row>
                 </Container>
