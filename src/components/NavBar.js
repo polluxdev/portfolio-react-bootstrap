@@ -16,6 +16,7 @@ class NavBar extends React.Component {
                         <Link to='/profile' className="nav-spa">Profile</Link>
                         <Link to='/contact' className="nav-spa">Contact</Link>
                         <Link to='/portfolio' className="nav-spa">Portfolio</Link>
+                    
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

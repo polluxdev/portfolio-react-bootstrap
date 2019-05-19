@@ -7,6 +7,7 @@ class Footer extends React.Component {
             <div>
                 <div className="footer">
                     <span>© 2019 Fahmi Nur Rosyid</span>
+                 
                 </div>
             </div>
         )
