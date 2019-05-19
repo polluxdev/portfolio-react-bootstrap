@@ -7,17 +7,17 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <NavBar>
-        <Link to='/home'>Home</Link>&nbsp;&nbsp;
         <Link to='/profile'>Profile</Link>&nbsp;&nbsp;
         <Link to='/contact'>Contact</Link>&nbsp;&nbsp;
         <Link to='/portofolio'>Portofolio</Link>&nbsp;&nbsp;
       </NavBar>
       <Main/>
       <Footer/>
-    </div>
+    </React.Fragment>
   );
 }
+
 
 export default App;

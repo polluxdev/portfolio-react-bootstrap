@@ -24,7 +24,7 @@ class Profile extends React.Component{
                                 <div className="border-layer-outer">
                                     <div className="border-layer-inner">
                                         <Card>  
-                                            <Card.Img src={avatar}/>
+                                            <Card.Img src={avatar} alt="profile-picture"/>
                                         </Card>
                                     </div>
                                 </div>

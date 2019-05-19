@@ -31,7 +31,7 @@ class Home extends React.Component{
                         <Col xs={12} sm={12} md={12}>
                             <div className="home-sub-title-right">
                                 <h3>
-                                    Mending sombong, tapi <span className="color">KAYA</span>!
+                                    Gapapa, <span className="color">JELEK</span> yang penting <span className="color">SOMBONG</span>!
                                 </h3>
                             </div>
                         </Col>
