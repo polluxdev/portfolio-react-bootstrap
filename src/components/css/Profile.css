@@ -82,3 +82,19 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.progress {
+    background-color: rgb(52, 58, 64) !important;
+}
+
+.progress-bar {
+    background-color: gold !important;
+    color: #171717 !important;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    border-radius: .25rem;
+    background-color: #171717;
+    color: #dddddd;
+}

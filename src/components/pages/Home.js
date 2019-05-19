@@ -20,7 +20,19 @@ class Home extends React.Component{
                     </Row>
                     <Row>
                         <Col xs={12} sm={12} md={12}>
-                            <div className="bracket-animation">
+                            <div className="home-sub-title-left">
+                                <h3>
+                                    Untuk apa berbudi pekerti, tapi <span className="color">MISKIN</span>?
+                                </h3>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={12} md={12}>
+                            <div className="home-sub-title-right">
+                                <h3>
+                                    Mending sombong, tapi <span className="color">KAYA</span>!
+                                </h3>
                             </div>
                         </Col>
                     </Row>

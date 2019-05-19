@@ -61,39 +61,39 @@ class Profile extends React.Component{
                             <ListGroup>
                                 <ListGroup.Item>
                                     <div className="skill-name">HTML</div>
-                                    <ProgressBar animated now={45} />
+                                    <ProgressBar animated now={80} label={`${80}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">CSS</div>
+                                    <ProgressBar animated now={70} label={`${70}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">JAVASCRIPT</div>
+                                    <ProgressBar animated now={60} label={`${60}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">JAVA</div>
+                                    <ProgressBar animated now={50} label={`${50}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">PHP</div>
+                                    <ProgressBar animated now={50} label={`${50}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">PYTHON</div>
+                                    <ProgressBar animated now={80} label={`${80}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">C++</div>
+                                    <ProgressBar animated now={70} label={`${70}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">SQL</div>
+                                    <ProgressBar animated now={90} label={`${90}%`}/>
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    <div className="skill-name"></div>
-
+                                    <div className="skill-name">R</div>
+                                    <ProgressBar animated now={100} label={`${100}%`}/>
                                 </ListGroup.Item>
                             </ListGroup>
                         </Col>
